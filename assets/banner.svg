@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img"
+     aria-label="Senanur Yilmaz - Software Engineer, Istanbul">
+  <title>Senanur Yılmaz — Software Engineer</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#FFE3F1"/>
+      <stop offset="45%"  stop-color="#FFC3DE"/>
+      <stop offset="100%" stop-color="#E7C9F5"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="45%"  stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="55%"  stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="blob">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="14"/></filter>
+
+    <!-- five-petal flower, drawn once and reused at different sizes -->
+    <g id="flower">
+      <g fill="#FFF0F7" opacity="0.95">
+        <ellipse cx="0" cy="-9" rx="5.5" ry="9"/>
+        <ellipse cx="0" cy="-9" rx="5.5" ry="9" transform="rotate(72)"/>
+        <ellipse cx="0" cy="-9" rx="5.5" ry="9" transform="rotate(144)"/>
+        <ellipse cx="0" cy="-9" rx="5.5" ry="9" transform="rotate(216)"/>
+        <ellipse cx="0" cy="-9" rx="5.5" ry="9" transform="rotate(288)"/>
+      </g>
+      <circle r="4" fill="#FFD36E"/>
+    </g>
+
+    <!-- four-point sparkle -->
+    <path id="spark" d="M0,-9 Q1.4,-1.4 9,0 Q1.4,1.4 0,9 Q-1.4,1.4 -9,0 Q-1.4,-1.4 0,-9 Z" fill="#FFFFFF"/>
+  </defs>
+
+  <rect width="900" height="260" rx="24" fill="url(#sky)"/>
+
+  <!-- soft light blobs -->
+  <g filter="url(#soft)">
+    <circle cx="140" cy="70"  r="70" fill="url(#blob)"/>
+    <circle cx="760" cy="200" r="90" fill="url(#blob)"/>
+    <circle cx="500" cy="30"  r="55" fill="url(#blob)"/>
+  </g>
+
+  <!-- flowers: slow drift and rotation -->
+  <g opacity="0.9">
+    <g transform="translate(70,196)">
+      <use href="#flower" transform="scale(1.5)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="26s" repeatCount="indefinite" additive="sum"/>
+      </use>
+      <animateTransform attributeName="transform" type="translate" values="70,196; 70,186; 70,196" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(824,62)">
+      <use href="#flower" transform="scale(1.15)">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="32s" repeatCount="indefinite" additive="sum"/>
+      </use>
+      <animateTransform attributeName="transform" type="translate" values="824,62; 824,72; 824,62" dur="7.5s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(150,44)">
+      <use href="#flower" transform="scale(0.8)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="22s" repeatCount="indefinite" additive="sum"/>
+      </use>
+    </g>
+    <g transform="translate(786,206)">
+      <use href="#flower" transform="scale(0.7)">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="19s" repeatCount="indefinite" additive="sum"/>
+      </use>
+    </g>
+  </g>
+
+  <!-- twinkling sparkles, staggered so they never blink in unison -->
+  <g fill="#FFFFFF">
+    <use href="#spark" transform="translate(232,64) scale(0.55)"><animate attributeName="opacity" values="0;1;0" dur="2.4s" begin="0s"    repeatCount="indefinite"/></use>
+    <use href="#spark" transform="translate(672,96) scale(0.75)"><animate attributeName="opacity" values="0;1;0" dur="3.1s" begin="0.6s"  repeatCount="indefinite"/></use>
+    <use href="#spark" transform="translate(122,132) scale(0.45)"><animate attributeName="opacity" values="0;1;0" dur="2.7s" begin="1.2s" repeatCount="indefinite"/></use>
+    <use href="#spark" transform="translate(838,146) scale(0.6)"><animate attributeName="opacity" values="0;1;0" dur="2.9s" begin="0.3s"  repeatCount="indefinite"/></use>
+    <use href="#spark" transform="translate(318,214) scale(0.5)"><animate attributeName="opacity" values="0;1;0" dur="3.4s" begin="1.7s"  repeatCount="indefinite"/></use>
+    <use href="#spark" transform="translate(596,32)  scale(0.5)"><animate attributeName="opacity" values="0;1;0" dur="2.2s" begin="0.9s"  repeatCount="indefinite"/></use>
+    <use href="#spark" transform="translate(470,228) scale(0.42)"><animate attributeName="opacity" values="0;1;0" dur="3.6s" begin="2.1s" repeatCount="indefinite"/></use>
+    <use href="#spark" transform="translate(246,168) scale(0.4)"><animate attributeName="opacity" values="0;1;0" dur="2.6s" begin="1.5s"  repeatCount="indefinite"/></use>
+  </g>
+
+  <!-- name -->
+  <text x="450" y="128" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif"
+        font-size="52" font-weight="700" fill="#8E2F63" letter-spacing="1.5">Senanur Yılmaz</text>
+
+  <!-- glitter sweep, clipped to the letters -->
+  <clipPath id="nameClip">
+    <text x="450" y="128" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif"
+          font-size="52" font-weight="700" letter-spacing="1.5">Senanur Yılmaz</text>
+  </clipPath>
+  <g clip-path="url(#nameClip)">
+    <rect x="-320" y="80" width="260" height="70" fill="url(#shine)">
+      <animate attributeName="x" from="-320" to="920" dur="3.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <text x="450" y="166" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif"
+        font-size="19" fill="#A8477C" letter-spacing="3.5">SOFTWARE ENGINEER</text>
+  <text x="450" y="196" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif"
+        font-size="15" fill="#B25A8B" letter-spacing="1.5">Architecht · İstanbul</text>
+</svg>

@@ -1,0 +1,44 @@
+name: stats
+
+# Rebuilds the stat card from the GitHub API. Committing the SVG into the repo
+# means the profile never depends on a third-party card service staying up --
+# github-readme-stats has been answering 503 for long stretches.
+
+on:
+  schedule:
+    - cron: "23 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render the stat card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATS_USER: ${{ github.repository_owner }}
+        run: python tools/stats_svg.py
+
+      - name: Commit if anything moved
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          if git diff --staged --quiet; then
+            echo "stats unchanged, nothing to commit"
+          else
+            git commit -m "chore: refresh the stat card"
+            git push
+          fi
