@@ -3,9 +3,9 @@
   <title>Senanur Yılmaz — Software Engineer</title>
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%"   stop-color="#432071"/>
-      <stop offset="45%"  stop-color="#6B39A8"/>
-      <stop offset="100%" stop-color="#9760D6"/>
+      <stop offset="0%"   stop-color="#4E2C13"/>
+      <stop offset="45%"  stop-color="#96601F"/>
+      <stop offset="100%" stop-color="#E3AE46"/>
     </linearGradient>
     <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0"/>
@@ -14,25 +14,25 @@
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
     <radialGradient id="blob">
-      <stop offset="0%"   stop-color="#D9BFF5" stop-opacity="0.45"/>
-      <stop offset="100%" stop-color="#D9BFF5" stop-opacity="0"/>
+      <stop offset="0%"   stop-color="#FBE7B4" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FBE7B4" stop-opacity="0"/>
     </radialGradient>
     <filter id="soft"><feGaussianBlur stdDeviation="14"/></filter>
 
     <!-- five-petal flower, drawn once and reused at different sizes -->
     <g id="flower">
-      <g fill="#F2E6FD" opacity="0.95">
+      <g fill="#FCE3A8" opacity="0.95">
         <ellipse cx="0" cy="-9" rx="5.5" ry="9"/>
         <ellipse cx="0" cy="-9" rx="5.5" ry="9" transform="rotate(72)"/>
         <ellipse cx="0" cy="-9" rx="5.5" ry="9" transform="rotate(144)"/>
         <ellipse cx="0" cy="-9" rx="5.5" ry="9" transform="rotate(216)"/>
         <ellipse cx="0" cy="-9" rx="5.5" ry="9" transform="rotate(288)"/>
       </g>
-      <circle r="4" fill="#F3C86E"/>
+      <circle r="4" fill="#6C3C18"/>
     </g>
 
     <!-- four-point sparkle -->
-    <path id="spark" d="M0,-9 Q1.4,-1.4 9,0 Q1.4,1.4 0,9 Q-1.4,1.4 -9,0 Q-1.4,-1.4 0,-9 Z" fill="#FFFFFF"/>
+    <path id="spark" d="M0,-9 Q1.4,-1.4 9,0 Q1.4,1.4 0,9 Q-1.4,1.4 -9,0 Q-1.4,-1.4 0,-9 Z" fill="#FFF6E0"/>
   </defs>
 
   <rect width="900" height="260" rx="24" fill="url(#sky)"/>
@@ -71,7 +71,7 @@
   </g>
 
   <!-- twinkling sparkles, staggered so they never blink in unison -->
-  <g fill="#FFFFFF">
+  <g fill="#FFF6E0">
     <use href="#spark" transform="translate(232,64) scale(0.55)"><animate attributeName="opacity" values="0;1;0" dur="2.4s" begin="0s"    repeatCount="indefinite"/></use>
     <use href="#spark" transform="translate(672,96) scale(0.75)"><animate attributeName="opacity" values="0;1;0" dur="3.1s" begin="0.6s"  repeatCount="indefinite"/></use>
     <use href="#spark" transform="translate(122,132) scale(0.45)"><animate attributeName="opacity" values="0;1;0" dur="2.7s" begin="1.2s" repeatCount="indefinite"/></use>
@@ -84,7 +84,7 @@
 
   <!-- name -->
   <text x="450" y="128" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif"
-        font-size="52" font-weight="700" fill="#E7D8FA" letter-spacing="1.5">Senanur Yılmaz</text>
+        font-size="52" font-weight="700" fill="#FDEFC9" letter-spacing="1.5">Senanur Yılmaz</text>
 
   <!-- glitter sweep, clipped to the letters -->
   <clipPath id="nameClip">
@@ -98,7 +98,7 @@
   </g>
 
   <text x="450" y="166" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif"
-        font-size="19" fill="#E7D6FA" letter-spacing="3.5">SOFTWARE ENGINEER</text>
+        font-size="19" fill="#F7E1AA" letter-spacing="3.5">SOFTWARE ENGINEER</text>
   <text x="450" y="196" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif"
-        font-size="15" fill="#CFB4EE" letter-spacing="1.5">Architecht · İstanbul</text>
+        font-size="15" fill="#E9CB84" letter-spacing="1.5">Architecht · İstanbul</text>
 </svg>

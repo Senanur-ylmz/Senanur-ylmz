@@ -19,13 +19,13 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Comfortaa&weight=700&size=21&pause=1200&color=7C43C8&center=true&vCenter=true&width=740&height=44&lines=Hi+there!+I'm+Senanur+%E2%9C%A8;Software+Engineer+%40+Architecht+%F0%9F%8C%B8;Learning+C%23+%C2%B7+.NET+%C2%B7+SQL+%C2%B7+Python+%C2%B7+Java+%F0%9F%92%95;Welcome+to+my+little+corner+of+GitHub+%F0%9F%8E%80" alt="Hi there! I'm Senanur — Software Engineer at Architecht, learning C#, .NET, SQL, Python and Java">
+<img src="https://readme-typing-svg.demolab.com?font=Comfortaa&weight=700&size=21&pause=1200&color=C28A2E&center=true&vCenter=true&width=740&height=44&lines=Hi+there!+I'm+Senanur+%E2%9C%A8;Software+Engineer+%40+Architecht+%F0%9F%8C%B8;Learning+C%23+%C2%B7+.NET+%C2%B7+SQL+%C2%B7+Python+%C2%B7+Java+%F0%9F%92%95;Welcome+to+my+little+corner+of+GitHub+%F0%9F%8E%80" alt="Hi there! I'm Senanur — Software Engineer at Architecht, learning C#, .NET, SQL, Python and Java">
 
 <img src="https://raw.githubusercontent.com/Senanur-ylmz/Senanur-ylmz/main/assets/divider.svg" alt="" width="900">
 
 </div>
 
-## 💜 &nbsp;a little about me
+## 🌻 &nbsp;a little about me
 
 - 💼 &nbsp;Software Engineer at **Architecht**, based in **İstanbul**
 - 🌱 &nbsp;Currently deepening **C#**, **.NET**, **SQL**, **Python** and **Java**
@@ -41,17 +41,17 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/C%23-6B39A8?style=for-the-badge&logo=csharp&logoColor=white" alt="C#">
-<img src="https://img.shields.io/badge/.NET-7C43C8?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET">
-<img src="https://img.shields.io/badge/Java-8B4FD1?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
-<img src="https://img.shields.io/badge/Python-9257D6?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-<img src="https://img.shields.io/badge/JavaScript-A873E0?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript">
+<img src="https://img.shields.io/badge/C%23-6C3C18?style=for-the-badge&logo=csharp&logoColor=white" alt="C#">
+<img src="https://img.shields.io/badge/.NET-7A4E18?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET">
+<img src="https://img.shields.io/badge/Java-8A5A16?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+<img src="https://img.shields.io/badge/Python-96601F?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/JavaScript-A9702A?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript">
 <br>
-<img src="https://img.shields.io/badge/Django-5E2FA0?style=for-the-badge&logo=django&logoColor=white" alt="Django">
-<img src="https://img.shields.io/badge/Celery-7C43C8?style=for-the-badge&logo=celery&logoColor=white" alt="Celery">
-<img src="https://img.shields.io/badge/SQL-8B4FD1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
-<img src="https://img.shields.io/badge/Sass-9257D6?style=for-the-badge&logo=sass&logoColor=white" alt="Sass">
-<img src="https://img.shields.io/badge/Git-A873E0?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+<img src="https://img.shields.io/badge/Django-5E340F?style=for-the-badge&logo=django&logoColor=white" alt="Django">
+<img src="https://img.shields.io/badge/Celery-7A4E18?style=for-the-badge&logo=celery&logoColor=white" alt="Celery">
+<img src="https://img.shields.io/badge/SQL-8A5A16?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
+<img src="https://img.shields.io/badge/Sass-96601F?style=for-the-badge&logo=sass&logoColor=white" alt="Sass">
+<img src="https://img.shields.io/badge/Git-A9702A?style=for-the-badge&logo=git&logoColor=white" alt="Git">
 
 </div>
 
@@ -59,23 +59,23 @@
 <img src="https://raw.githubusercontent.com/Senanur-ylmz/Senanur-ylmz/main/assets/divider.svg" alt="" width="900">
 </div>
 
-## 🌸 &nbsp;things i've made
+## 🌼 &nbsp;things i've made
 
-- 🌸 &nbsp;**[2NTECH](https://github.com/Senanur-ylmz/2NTECH)** — Django app for employee clocking: late notifications, annual leave management, monthly hour reports, background jobs with Celery and live updates over WebSocket
-- 🌺 &nbsp;**[CSE3063F22P1_GRP10](https://github.com/Senanur-ylmz/CSE3063F22P1_GRP10)** — group course project in Python ⭐ 3
-- 🌼 &nbsp;**[AI_2D_mazes](https://github.com/Senanur-ylmz/AI_2D_mazes-)** — maze solving with search algorithms
-- 🌻 &nbsp;**[SOS_Game](https://github.com/Senanur-ylmz/SOS_Game)** — the SOS board game, playable in Python
-- 🌷 &nbsp;**[Bank](https://github.com/Senanur-ylmz/Bank)** and **[ToDoApp](https://github.com/Senanur-ylmz/ToDoApp)** — small JavaScript practice apps
+- 🌻 &nbsp;**[2NTECH](https://github.com/Senanur-ylmz/2NTECH)** — Django app for employee clocking: late notifications, annual leave management, monthly hour reports, background jobs with Celery and live updates over WebSocket
+- 🌼 &nbsp;**[CSE3063F22P1_GRP10](https://github.com/Senanur-ylmz/CSE3063F22P1_GRP10)** — group course project in Python ⭐ 3
+- 🌾 &nbsp;**[AI_2D_mazes](https://github.com/Senanur-ylmz/AI_2D_mazes-)** — maze solving with search algorithms
+- 🌟 &nbsp;**[SOS_Game](https://github.com/Senanur-ylmz/SOS_Game)** — the SOS board game, playable in Python
+- ✨ &nbsp;**[Bank](https://github.com/Senanur-ylmz/Bank)** and **[ToDoApp](https://github.com/Senanur-ylmz/ToDoApp)** — small JavaScript practice apps
 
 <div align="center">
 
-<a href="https://github.com/Senanur-ylmz?tab=repositories"><img src="https://img.shields.io/badge/see%20all%20repositories-7C43C8?style=for-the-badge&logo=github&logoColor=white" alt="See all repositories"></a>
+<a href="https://github.com/Senanur-ylmz?tab=repositories"><img src="https://img.shields.io/badge/see%20all%20repositories-96601F?style=for-the-badge&logo=github&logoColor=white" alt="See all repositories"></a>
 
 <img src="https://raw.githubusercontent.com/Senanur-ylmz/Senanur-ylmz/main/assets/divider.svg" alt="" width="900">
 
 </div>
 
-## 🔮 &nbsp;my little stats
+## ☀️ &nbsp;my little stats
 
 <div align="center">
 
@@ -85,13 +85,13 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Senanur-ylmz&hide_border=true&background=1E1430&stroke=3D2A5C&ring=B98BE8&fire=B98BE8&currStreakLabel=B98BE8&sideLabels=A996C0&currStreakNum=EDE3FA&sideNums=EDE3FA&dates=8A76A8&border_radius=18">
-  <img src="https://streak-stats.demolab.com?user=Senanur-ylmz&hide_border=true&background=FAF6FF&stroke=DCC7F0&ring=6B39A8&fire=6B39A8&currStreakLabel=6B39A8&sideLabels=8B7BA8&currStreakNum=3B1F63&sideNums=3B1F63&dates=9C8AB8&border_radius=18" alt="Contribution streak" height="180">
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Senanur-ylmz&hide_border=true&background=2A1D0F&stroke=56401F&ring=E8B84F&fire=E8B84F&currStreakLabel=E8B84F&sideLabels=C0AA83&currStreakNum=FBEFD2&sideNums=FBEFD2&dates=9A8560&border_radius=18">
+  <img src="https://streak-stats.demolab.com?user=Senanur-ylmz&hide_border=true&background=FFFBF2&stroke=F0DCB0&ring=96601F&fire=96601F&currStreakLabel=96601F&sideLabels=A08A64&currStreakNum=4E2C13&sideNums=4E2C13&dates=B09A74&border_radius=18" alt="Contribution streak" height="180">
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Senanur-ylmz/Senanur-ylmz/output/snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/Senanur-ylmz/Senanur-ylmz/output/snake-light.svg" alt="Contribution grid, nibbled by a very purple snake" width="860">
+  <img src="https://raw.githubusercontent.com/Senanur-ylmz/Senanur-ylmz/output/snake-light.svg" alt="Contribution grid, nibbled by a very golden snake" width="860">
 </picture>
 
 <img src="https://raw.githubusercontent.com/Senanur-ylmz/Senanur-ylmz/main/assets/divider.svg" alt="" width="900">
@@ -102,16 +102,16 @@
 
 <div align="center">
 
-<a href="https://github.com/Senanur-ylmz"><img src="https://img.shields.io/badge/@Senanur--ylmz-6B39A8?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+<a href="https://github.com/Senanur-ylmz"><img src="https://img.shields.io/badge/@Senanur--ylmz-6C3C18?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 <!-- TODO: LinkedIn kullanıcı adını yazıp bu satırın yorumunu kaldır
-<a href="https://linkedin.com/in/KULLANICI-ADI"><img src="https://img.shields.io/badge/LinkedIn-7C43C8?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://linkedin.com/in/KULLANICI-ADI"><img src="https://img.shields.io/badge/LinkedIn-7A4E18?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 -->
 <!-- TODO: herkese açık bir e-posta paylaşmak istersen
-<a href="mailto:ADRES"><img src="https://img.shields.io/badge/email-9257D6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="mailto:ADRES"><img src="https://img.shields.io/badge/email-96601F?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 -->
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Comfortaa&size=16&duration=4000&pause=900&color=7C43C8&center=true&vCenter=true&width=460&height=30&lines=thanks+for+stopping+by!+%F0%9F%8C%B8;have+a+lovely+day+%E2%9C%A8" alt="Thanks for stopping by!">
+<img src="https://readme-typing-svg.demolab.com?font=Comfortaa&size=16&duration=4000&pause=900&color=C28A2E&center=true&vCenter=true&width=460&height=30&lines=thanks+for+stopping+by!+%F0%9F%8C%B8;have+a+lovely+day+%E2%9C%A8" alt="Thanks for stopping by!">
 
 </div>

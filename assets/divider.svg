@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="40" viewBox="0 0 900 40" role="presentation">
   <defs>
     <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#9760D6" stop-opacity="0"/>
-      <stop offset="25%"  stop-color="#9760D6" stop-opacity="0.9"/>
-      <stop offset="75%"  stop-color="#6B39A8" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#6B39A8" stop-opacity="0"/>
+      <stop offset="0%"   stop-color="#E3AE46" stop-opacity="0"/>
+      <stop offset="25%"  stop-color="#E3AE46" stop-opacity="0.9"/>
+      <stop offset="75%"  stop-color="#96601F" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#96601F" stop-opacity="0"/>
     </linearGradient>
     <g id="d-flower">
-      <g fill="#A873E0">
+      <g fill="#E8B84F">
         <ellipse cx="0" cy="-5" rx="3" ry="5"/>
         <ellipse cx="0" cy="-5" rx="3" ry="5" transform="rotate(72)"/>
         <ellipse cx="0" cy="-5" rx="3" ry="5" transform="rotate(144)"/>
         <ellipse cx="0" cy="-5" rx="3" ry="5" transform="rotate(216)"/>
         <ellipse cx="0" cy="-5" rx="3" ry="5" transform="rotate(288)"/>
       </g>
-      <circle r="2.2" fill="#F3C86E"/>
+      <circle r="2.2" fill="#6C3C18"/>
     </g>
-    <path id="d-spark" d="M0,-7 Q1,-1 7,0 Q1,1 0,7 Q-1,1 -7,0 Q-1,-1 0,-7 Z" fill="#8E5BC9"/>
+    <path id="d-spark" d="M0,-7 Q1,-1 7,0 Q1,1 0,7 Q-1,1 -7,0 Q-1,-1 0,-7 Z" fill="#C9922E"/>
   </defs>
 
   <rect x="60" y="19" width="780" height="2" rx="1" fill="url(#line)"/>
