@@ -27,14 +27,14 @@ IGNORED_LANGS = {"HTML", "CSS", "SCSS", "Sass", "Less", "Stylus", "EJS",
                  "Handlebars", "Pug", "Blade", "Jupyter Notebook"}
 
 THEMES = {
-    "light": dict(card="#FFF7FB", border="#F3C4DC", accent="#D6478E",
-                  key="#A8779A", value="#6B2E52", track="#FBE4EF"),
-    "dark":  dict(card="#241722", border="#4A2A3C", accent="#FF8FC5",
-                  key="#C29FB4", value="#FFE3F1", track="#3A2431"),
+    "light": dict(card="#FAF6FF", border="#DCC7F0", accent="#6B39A8",
+                  key="#8B7BA8", value="#3B1F63", track="#EFE6FA"),
+    "dark":  dict(card="#1E1430", border="#3D2A5C", accent="#B98BE8",
+                  key="#A996C0", value="#EDE3FA", track="#2C1E45"),
 }
 
 # Pastels for the language bars, cycled in order.
-BAR_COLORS = ["#FF8FC5", "#C89BE8", "#8FD3F4", "#FFC46B", "#7FE3C4", "#FFA5A5"]
+BAR_COLORS = ["#7C43C8", "#A873E0", "#8E7BE0", "#C86BC8", "#6FA8DC", "#E0A96F"]
 
 
 def api(path):

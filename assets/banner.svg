@@ -3,9 +3,9 @@
   <title>Senanur Yılmaz — Software Engineer</title>
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%"   stop-color="#FFE3F1"/>
-      <stop offset="45%"  stop-color="#FFC3DE"/>
-      <stop offset="100%" stop-color="#E7C9F5"/>
+      <stop offset="0%"   stop-color="#432071"/>
+      <stop offset="45%"  stop-color="#6B39A8"/>
+      <stop offset="100%" stop-color="#9760D6"/>
     </linearGradient>
     <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0"/>
@@ -14,21 +14,21 @@
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
     <radialGradient id="blob">
-      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0%"   stop-color="#D9BFF5" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#D9BFF5" stop-opacity="0"/>
     </radialGradient>
     <filter id="soft"><feGaussianBlur stdDeviation="14"/></filter>
 
     <!-- five-petal flower, drawn once and reused at different sizes -->
     <g id="flower">
-      <g fill="#FFF0F7" opacity="0.95">
+      <g fill="#F2E6FD" opacity="0.95">
         <ellipse cx="0" cy="-9" rx="5.5" ry="9"/>
         <ellipse cx="0" cy="-9" rx="5.5" ry="9" transform="rotate(72)"/>
         <ellipse cx="0" cy="-9" rx="5.5" ry="9" transform="rotate(144)"/>
         <ellipse cx="0" cy="-9" rx="5.5" ry="9" transform="rotate(216)"/>
         <ellipse cx="0" cy="-9" rx="5.5" ry="9" transform="rotate(288)"/>
       </g>
-      <circle r="4" fill="#FFD36E"/>
+      <circle r="4" fill="#F3C86E"/>
     </g>
 
     <!-- four-point sparkle -->
@@ -84,7 +84,7 @@
 
   <!-- name -->
   <text x="450" y="128" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif"
-        font-size="52" font-weight="700" fill="#8E2F63" letter-spacing="1.5">Senanur Yılmaz</text>
+        font-size="52" font-weight="700" fill="#E7D8FA" letter-spacing="1.5">Senanur Yılmaz</text>
 
   <!-- glitter sweep, clipped to the letters -->
   <clipPath id="nameClip">
@@ -98,7 +98,7 @@
   </g>
 
   <text x="450" y="166" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif"
-        font-size="19" fill="#A8477C" letter-spacing="3.5">SOFTWARE ENGINEER</text>
+        font-size="19" fill="#E7D6FA" letter-spacing="3.5">SOFTWARE ENGINEER</text>
   <text x="450" y="196" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif"
-        font-size="15" fill="#B25A8B" letter-spacing="1.5">Architecht · İstanbul</text>
+        font-size="15" fill="#CFB4EE" letter-spacing="1.5">Architecht · İstanbul</text>
 </svg>
